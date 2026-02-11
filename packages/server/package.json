@@ -1,0 +1,17 @@
+{
+  "name": "@talker/server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@talker/shared": "*"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
